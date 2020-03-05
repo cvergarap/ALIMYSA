@@ -1,0 +1,39 @@
+*{
+margin: 10px;
+padding: 0px;
+}
+
+
+h1{
+color: rgb(255, 255, 255);
+width: 100%;
+background-color: rgb(145, 145, 145);
+font-style: Bold;
+}
+
+table {
+border: 1px;
+text-align: center; 
+width: 300px;
+font-size: 10px;
+padding: 5px;
+color: Black;
+}
+
+.tituloCol{
+color: White;
+text-align: center; 
+}
+
+footer {
+font-size: 10px; 
+text-align: center; 
+line-height: 20px;
+background: rgb(78, 106, 148);
+}
+
+
+
+
+
+
