@@ -88,7 +88,7 @@ function updateEstudiante()
         $resultadoQuery= mysqli_query($conexion, $query, MYSQLI_STORE_RESULT);
         $fila = mysqli_fetch_array($resultadoQuery, MYSQLI_BOTH);
         //limpiarmemoria($conexion, $resultadoQuery);
-		echo('Se actualiza el registro del estudiante: '.implode(', '; $fila)); exit();
+		echo('Se actualiza el registro del estudiante: '.implode(', ', $fila)); exit();
         return $fila;
     }
 }
